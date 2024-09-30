@@ -11,7 +11,7 @@ const NewsApp = () => {
   const API_KEY = "c9603dffa92040628e5864139db74e3c";
 
   const getData = async() =>{
-     const response = await fetch(`https://newsapi.org/v2/everything?q=${search}&apiKey=${API_KEY}`);
+     const response = await fetch(`http://newsapi.org/v2/everything?q=${search}&apiKey=${API_KEY}`);
      const jsonData = await response.json();
      console.log(jsonData.articles);
      setNewsData(jsonData.articles);
