@@ -1,5 +1,3 @@
-import { div } from "three/webgpu";
-
 const Card=({data})=>{
     return( 
     <div>    

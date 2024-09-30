@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import './Navbar.css';
-import Card from './Cards';
+import './App.css';
+import Card from './componenets/Cards';
 
 const NewsApp = () => {
 
