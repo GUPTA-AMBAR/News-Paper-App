@@ -22,7 +22,7 @@ const NewsApp = () => {
   },[])
 
   const handleInput=(e)=>{
-    console.log(e.target.value);
+    // console.log(e.target.value);
     setSearch(e.target.value);
   }
 

@@ -38,3 +38,16 @@
     color: #ffcc00; /* Your desired text color */
     text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00;
 }
+
+/*card-section*/
+
+/* .card{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(3, 2fr);
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 40px; 
+} */

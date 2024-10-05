@@ -9,7 +9,7 @@ const Card=({data})=>{
     else{
         return (
             <div className="card1" key={index}>
-            <div className="card "  style={{width: "50rem",marginLeft:"350px", marginTop:"20px"}}>
+            <div className="card " style={{width: "50rem",marginLeft:"350px", marginTop:"20px"}}>
                 <img className="card-img-top" src={currentItem.urlToImage} alt="Card image cap"/>
             <div className="card-body">
                 <h5 className="card-title"  >{currentItem.title}</h5>
